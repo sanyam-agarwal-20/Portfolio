@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanyam Agarwal | Portfolio</title>
+
+  <link rel="icon" type="image/x-icon" href="src/png/main-favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
+</head>
+
+<body class="body">
+  <div id="preloader"></div>
+  <noscript>Allow Javascript</noscript>
+
+  <header>
+    <div class="cursor-inner" id="cursor-inner"></div>
+    <div class="cursor-outer" id="cursor-outer"></div>
+
+    <div class="navbar" id="navbar">
+      <div class="hey">Hey!</div>
+      <div class="navbar-tabs" id="navbar-tabs">
+        <ul class="navbar-tabs-ul">
+          <li class="home activeThistab" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
+            <a href="#home" tabindex="0" aria-label="Home menu button">
+              Home
+            </a>
+          </li>
+
+          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
+            <a href="#about" aria-label="about menu button">
+              AboutMe
+            </a>
+          </li>
+
+          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#skills" aria-label="skills menu button">
+              Skills
+            </a>
+          </li>
+          
+          <li class="timeline" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#timeline" aria-label="timeline menu button">
+              Timeline
+            </a>
+          </li>
+
+          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="900">
+            <a href="#projects" aria-label="projects menu button">
+              Projects
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- navbar tabs ends -->
+    </div>
+  </header>
+  <!-- header ends here -->
+
+  <div class="problems_route">
+    <a href="#problems">
+      <h2 class="jello problems_route-h3">Problem & Solution()</h2>
+    </a>
+  </div>
+
+  <main>
+    <!-- hamburger -->
+    <div class="hamburger" id="hamburger" data-aos="fade">
+      <div class="hamburgerbase">
+        <button id="hamburger-button" onclick="hamburgerMenu()" tabindex="0" aria-label="Menu Button">
+          <span class="burger-bar" id="burger-bar1"></span>
+          <span class="burger-bar" id="burger-bar2"></span>
+          <span class="burger-bar" id="burger-bar3"></span>
+        </button>
+      </div>
+    </div>
+    <!-- hamburger -->
+    <div class="mobiletogglemenu" id="mobiletogglemenu">
+      <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+        <li id="home-mobile-tab" class="mobile-navbar-tabs-li home activeThismobiletab" onclick="hidemenubyli()">
+          <a href="#home" tabindex="0" aria-label="Home menu button">
+            &#60;/Home&#62;
+          </a>
+        </li>
+
+        <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">
+          <a href="#about" tabindex="0" aria-label="about menu button">
+            AboutMe
+          </a>
+        </li>
+        <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">
+          <a href="#skills" tabindex="0" aria-label="skills menu button">
+            Skills
+          </a>
+        </li>
+        <li id="timeline-mobile-tab" class="mobile-navbar-tabs-li timeline" onclick="hidemenubyli()">
+          <a href="#timeline" tabindex="0" aria-label="timeline menu button">
+            Timeline
+          </a>
+        </li>
+
+        <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
+          <a href="#projects" tabindex="0" aria-label="projects menu button">
+            Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- mobile toggle menu ends -->
+
+    <section class="landing-page-container" id="home">
+      <div class="blob"></div>
+
+      <div class="text-content">
+        <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
+          <p class="jello">H</p>
+          <p class="jello">e</p>
+          <p class="jello">l</p>
+          <p class="jello">l</p>
+          <p class="jello">o</p>
+          <p class="jello">(</p>
+          <p class="jello">)</p>
+          <p class="jello">;</p>
+          &nbsp;
+          <p class="jello">I</p>
+          <p class="jello">'</p>
+          <p class="jello">m</p>
+        </article>
+        <article id="name" data-aos="fade-up" data-aos-delay="200">
+          <p class="jello">S</p>
+          <p class="jello">A</p>
+          <p class="jello">N</p>
+          <p class="jello">Y</p>
+          <p class="jello">A</p>
+          <p class="jello">M</p>
+          &nbsp;
+          <p class="jello">A</p>
+          <p class="jello">G</p>
+          <p class="jello">A</p>
+          <p class="jello">R</p>
+          <p class="jello">W</p>
+          <p class="jello">A</p>
+          <p class="jello">L</p>
+        </article>
+
+        <article id="work" data-aos="fade-up" data-aos-delay="400">
+          <div>
+            <p class="jello">I</p>
+            <p class="jello">'</p>
+            <p class="jello">m</p>
+          </div>
+          <div>
+            <p class="jello">a</p>
+          </div>
+          <div>
+            <p class="jello">M</p>
+            <p class="jello">L</p>
+            &nbsp;
+            <p class="jello">E</p>
+            <p class="jello">n</p>
+            <p class="jello">t</p>
+            <p class="jello">h</p>
+            <p class="jello">s</p>
+            <p class="jello">i</p>
+            <p class="jello">a</p>
+            <p class="jello">s</p>
+            <p class="jello">t</p>
+            <p class="jello">.</p>
+          </div>
+        </article>
+        <p id="info-para" data-aos="fade-up" data-aos-delay="600">
+          I am currently exploring the ML and related principles. 
+          I am keen to work on fields related to ML and Software Engineering.<br />
+          <br />
+          I have been working on variety of projects to improve my understanding of the discipline.
+        </p>
+      </div>
+     
+    </section>
+    <!-- landing page ends here -->
+
+    <section class="about-section-container" id="about" data-aos="fade-up">
+      <div class="about-section">
+        <div class="section-heading">
+          <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
+            &#60;/AboutMe&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="info-dp-section">
+          <div class="about-info">
+            <p tabindex="0">
+              Hi! My name is Sanyam.
+            </p>
+            <br />
+            <p tabindex="0">
+              I had my interest piqued by the amazing results data can bring about. And so I have been working on
+              ML, a field that utilises this data the most. The complex equations of easily implementable code excites me
+              with the challenges it offers. 
+            </p>
+            <br />
+            <p tabindex="0">
+              I have been focusing on increasing my Analytical Abilities by focusing on Statistics and Mathematics relevant for Data 
+              Science and Machine Learning. I have also been a huge fan of video games since childhood and so learning OpenGL has been 
+              on my wishlist for a while.
+            </p>
+          </div>
+
+          <div class="dp">
+            <img src="./src/dp.jpg" tabindex="0" style="margin: 5px 2px 2px 2px; width:90%;"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends  -->
+
+    <section class="skills-section-container" id="skills" data-aos="fade-up">
+      <div class="skills-section">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="skills heading">
+            &#60;/Skills&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="frontend-dev-section">
+          <ul class="tech-stack-wrapper">
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="HTML5" class="tech-stack-logo" />
+              <span class="tooltip">HTML</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS3" class="tech-stack-logo" />
+              <span class="tooltip">CSS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript" class="tech-stack-logo" />
+              <span class="tooltip">JS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt="Git" class="tech-stack-logo" />
+              <span class="tooltip">GIT</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" alt="C++"   class="tech-stack-logo" />
+              <span class="tooltip">C++</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="tech-stack-logo" />
+              <span class="tooltip">Python</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" alt="Java" class="tech-stack-logo" />
+              <span class="tooltip">Java</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" class="tech-stack-logo" />
+              <span class="tooltip">TensorFlow</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" class="tech-stack-logo" />
+              <span class="tooltip">Pytorch</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-plain.svg" alt="OpenCV" class="tech-stack-logo" />
+              <span class="tooltip">OpenCV</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opengl/opengl-plain.svg" alt="OpenGL" class="tech-stack-logo" />
+              <span class="tooltip">OpenGL</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- skills section ends -->
+
+    <section class="timeline-section-container" id="timeline" data-aos="fade-up">
+        <div class="timeline-section">
+          <div class="section-heading" data-aos="fade-up">
+            <h2 class="section-heading-article" tabindex="0" aria-label="Timeline of my journey">
+              &#60;/Timeline&#62;
+            </h2>
+            <p class="sectionHeadingP"></p>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>August 2024</h3>
+                <p>Started Bachelors in CSE at IIIT Sonepat</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>May-August 2025</h3>
+                <p>ML Intern at IIIT Allahabad</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--Timeline ends-->
+
+    <section class="projects-section-container" id="projects">
+      <div class="projects-section-div">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
+            &#60;/Projects&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+        <div class="project-boxes-div">
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <article class="ProjectHeading">TrackIt</article>
+                <p class="ProjectDescription">
+                  TrackIt: A sleek and modern web based habit traker. Added features include: weather reports, habit tracking, alarms, countdowns, etc.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://sanyam-agarwal-20.github.io/WebDesignProject-----Habit-Tracker" target="_blank" class="cta"
+                    aria-label="Visit trackit Live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            
+              <!--
+              <div class="image-div">
+                <img src="src/png/trackit.png"/>
+              </div>
+            -->
+
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <article class="ProjectHeading">Stroke Prediction ML Webapp</article>
+                <p class="ProjectDescription">
+                  An online learning ML based webapp that uses a Hybrid model and user feedback to predict the risk of a stroke. The webapp utilises an ambidient interface to interact with user.
+                </p>
+                <div class="project-buttons">
+                  <a href="" target="_blank" class="cta">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- Problem and Solutions-->
+    <section class="problem-section-container" id="problems">
+      <div class="problem-section-div">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article">&#60;/Problem X Solution&#62;</h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+        <div class="info-dp-section">
+          <div class="about-info" style="display: flex; flex-direction: row;">
+            <p style="align-items: center; align-content: center;">
+              Prayagraj experiences frequent flooding from the Ganga and Yamuna rivers, especially during the monsoon. After floodwaters recede, the city faces a secondary crisis:
+              Waterborne diseases like dengue, malaria, and cholera spread quickly due to stagnant water.
+              Snake infestations and decomposing corpses pose serious public health and safety hazards.
+              Poor tracking of affected households delays relief distribution, health interventions, and sanitation drives.
+              The lack of real-time data, monitoring, and coordination worsens the problem, leaving many vulnerable populations underserved.
+            </p>
+          </div>
+          <div class="dp">
+            <img src="./src/flood.png" style="width: 95%;">
+          </div>
+        </div>
+        <div class="info-dp-section">
+          <h3 style="color:#fff; font-family: fira code; font-size: 3rem;">Flood Aftermath Response & Monitoring System (FARMS)</h3>
+          <p style="align-items: center; align-content: center; color:#fff; font-size: 2rem; font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
+            
+            Following the floods in Prayagraj, stagnant water, unhygienic conditions, and delayed response efforts often contribute to the outbreak of diseases, snake infestations, and broader public health emergencies. 
+            To effectively tackle these challenges, a tech-driven solution can be developed that maps affected areas, crowdsources hazard reports from citizens, and enables authorities to coordinate more swiftly and efficiently. 
+            The system would feature a React.js-based web dashboard for administrators to monitor situations in real-time. 
+            On the backend, Node.js would provide REST APIs, with PostgreSQL or Firebase used for storing and retrieving real-time data. 
+            AI and machine learning would enhance the platform through image classification—detecting waterlogging or waste from satellite or drone images—and natural language processing (NLP) to analyze citizen-submitted reports for urgency or health-related symptoms. 
+            For spatial analysis, geotagged data visualization would be powered by Google Maps API, along with satellite data integration from sources like Sentinel Hub or ISRO Bhuvan. 
+            Additionally, to ensure accessibility in low-connectivity areas, the system would support SMS-based hazard reporting via services like Twilio and include local database caching for offline usage.
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- main ends here -->
+
+
+  <footer id="footer">
+    <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
+      <article aria-label="Back to top">&#8592;BACK TO TOP</article>
+    </button>
+    <div class="footer-background">
+      <div class="footer-blob"></div>
+    </div>
+    <div class="footer-foreground">
+      <div class="footercontainer">
+        <div class="two-words">
+          <article tabindex="0" aria-label="Learning, Living, and Leveling Up, my quote">
+            "Learning, Living, and Leveling Up."
+          </article>
+        </div>
+        <div class="social-media-container">
+          <div class="getintouch-heading">
+            <article>GetinTouch();</article>
+          </div>
+          <div class="logos">
+
+            <a href="https://github.com/sanyam-agarwal-20" target="_blank" aria-label="My github"><svg viewBox="0 0 496 512"
+                class="SocialHandle">
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+              </svg></a>
+
+            <a href="mailto:sanyamagarwal248@gmail.com" target="_blank" aria-label="My G mail"><svg id="GmailLogo"
+                viewBox="0 0 512 512">
+                <path
+                  d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="footer-avatar-container">
+          <img src="src/footer-avatar.png" alt="animation-head" class="footer-avatar-img" id="footer-wala-avatar"/>
+          <div class="footer-avatar-face">
+            <div class="footer-avatar-eye footer-left-eye">
+              <div class="footer-pupil"></div>
+            </div>
+            <div class="footer-avatar-eye footer-right-eye">
+              <div class="footer-pupil"></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <article>
+            Design & Built by Sanyam Agarwal
+          </article>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends here -->
+
+  <script src="main.js"></script>
+
+  <script>
+    const cursorInner = document.getElementById("cursor-inner");
+    const cursorOuter = document.getElementById("cursor-outer");
+    const links = document.querySelectorAll("a,label,button");
+
+    document.addEventListener("mousemove", function (e) {
+      const posX = e.clientX;
+      const posY = e.clientY;
+
+      cursorInner.style.left = `${posX}px`;
+      cursorInner.style.top = `${posY}px`;
+
+      // cursorOuter.style.left = `${posX}px`;
+      // cursorOuter.style.top = `${posY}px`;
+
+      cursorOuter.animate(
+        {
+          left: `${posX}px`,
+          top: `${posY}px`,
+        },
+        { duration: 500, fill: "forwards" }
+      );
+
+      links.forEach((link) => {
+        link.addEventListener("mouseenter", () => {
+          cursorInner.classList.add("hover");
+          cursorOuter.classList.add("hover");
+        });
+        link.addEventListener("mouseleave", () => {
+          cursorInner.classList.remove("hover");
+          cursorOuter.classList.remove("hover");
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
